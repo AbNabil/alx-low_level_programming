@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main method
+ * main 
+ * Return: 0
  */
 int main(void)
 {
