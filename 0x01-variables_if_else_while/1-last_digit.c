@@ -1,11 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/* more headers goes there */
+
 /**
- * main - Determine if the last digit of a random number is
- * greater than or less than 5, or is zero..
- * Return: 0 on success
+ * main - Entry point
+ *
+ *
+ * Return: Always 0 (Sucess)
  */
+
 int main(void)
 {
 	int n;
