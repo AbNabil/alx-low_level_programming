@@ -1,15 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
 /**
- * main - Entry point
- *
- *
- * Return: Always 0 (Sucess)
+ * main - main block
+ * Description: Print statements based on the last digit of the random number.
+ * Return: 0
  */
-
 int main(void)
 {
 	int n;
