@@ -2,28 +2,28 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - main block
- * Description: Print statements based on the last digit of the random number.
- * Return: 0
+ * main - Determine if a random number is positive, negative or zero.
+(*
+ * Return: 0 on success
  */
 int main(void)
 {
 	int n;
-	char last[] = "Last digit of";
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("%s %d is %d and is ", last, n, n % 10);
-	if (n % 10 > 5)
+	/* your code goes there */
+	if (n < 0)
 	{
-		printf("greater than 5\n");
+		printf("%d is %s\n", n, "negative");
 	}
-	else if (n % 10 == 0)
+	else if (n > 0)
 	{
-		printf("0\n");
+		printf("%d is %s\n", n, "positive");
 	}
 	else
 	{
-		printf("less than 6 and not 0\n");
+		printf("%d is %s\n", n, "zero");
 	}
 	return (0);
 }
