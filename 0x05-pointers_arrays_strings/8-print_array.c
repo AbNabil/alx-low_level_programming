@@ -1,4 +1,3 @@
-#include "coding.h"
 #include "stdio.h"
 
 /**

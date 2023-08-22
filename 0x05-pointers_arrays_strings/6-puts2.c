@@ -1,4 +1,4 @@
-#include "coding.h"
+#include "stdio.h"
 
 /**
  * puts2 - function with one argument

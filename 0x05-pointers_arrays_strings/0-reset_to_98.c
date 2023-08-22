@@ -1,4 +1,4 @@
-#include "coding.h"
+#include "stdio.h"
 
 /**
  * reset_to_98 - function with one argument

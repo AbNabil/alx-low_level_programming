@@ -1,4 +1,4 @@
-#include "coding.h"
+#include "stdio.h"
 
 /**
  * rev_string - function with one argument
